@@ -1,0 +1,34 @@
+ /* square stuff */
+
+ .squares-wrapper {
+    display: flex;
+    justify-content:center ;
+}
+
+.squares-wrapper > .squares {
+   width: 1000PX;
+}
+
+.squares-wrapper > .squares > .square {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin: -4px;
+}
+
+.square > .img-wrapper img {
+   width: 100%;
+   height: 500px;
+   object-fit: cover;
+}
+
+.square > .square-text-wrapper {
+   display: flex;
+   justify-content:center ;
+   align-items: center;
+   flex-direction: column;
+   padding: 43px;
+}
+
+.square > .square-text-wrapper h1 {
+   color: #cea135;
+}
